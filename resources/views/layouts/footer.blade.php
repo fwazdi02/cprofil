@@ -35,11 +35,11 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="jquery/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url('/') }}/jquery/jquery.min.js"></script>
+    <script src="{{ url('/') }}/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
+    <script src="{{ url('/') }}/js/clean-blog.min.js"></script>
 
   </body>
 

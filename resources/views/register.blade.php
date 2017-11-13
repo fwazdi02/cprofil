@@ -9,7 +9,7 @@
                     
 
                 <form action="#" method="post" class="form-horizontal">
-                        <div class="card-block">
+                        <div class="card-body">
                     
                         <div class="mb-4 mt-2">
      

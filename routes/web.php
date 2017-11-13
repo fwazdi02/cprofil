@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/blog', function () {
     return view('blog.index');
 });
+
+Route::get('/category/create', 'CategoryController@create');
+Route::get('/category/edit', 'CategoryController@edit');
+
+Route::resource('category', 'CategoryController');

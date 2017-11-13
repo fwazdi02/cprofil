@@ -5,7 +5,7 @@
           
             <div class="card">
 
-               <div class="card-block" >
+               <div class="card-body" >
                    <h3 class="text-center my-2">Login Your Account</h3>
                    <hr class="mb-4">
                    <a class="btn btn-danger btn-block btn-social btn-google-plus">
