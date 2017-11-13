@@ -29,7 +29,7 @@ class CreateCommentsTable extends Migration
             $table->string('name')->notnull() ;
             $table->string('email')->notnull() ;
             $table->string('website')->notnull() ;
-            $table->text('website')->notnull() ;
+            $table->text('message')->notnull() ;
             $table->timestamps();
         });
     }
