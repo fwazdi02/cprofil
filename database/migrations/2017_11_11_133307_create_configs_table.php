@@ -51,7 +51,7 @@ config_id` int(11) NOT NULL,
             $table->string('city')->notnull() ;
             $table->string('zip_code')->notnull() ;
             $table->string('phone_number')->notnull() ;
-            $table->mediumText('metatext')->notnull() ;
+            $table->text('metatext')->notnull() ;
             $table->string('fax')->notnull() ;
             $table->string('facebook')->notnull() ;
             $table->string('twitter')->notnull() ;

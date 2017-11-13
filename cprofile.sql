@@ -22,10 +22,6 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
-CREATE DATABASE cs_nirasoft ;
-USE cs_nirasoft ;
-
-
 --
 -- Table structure for table `admins`
 --

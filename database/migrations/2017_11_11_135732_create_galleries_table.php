@@ -29,11 +29,11 @@ class CreateGalleriesTable extends Migration
             $table->increments('gallery_id');
             $table->integer('user_id')->unsigned()->notnull() ;
             $table->string('gallery_name')->notnull() ;
-            $table->string('slug_gallery')->notnull() ;
+            $table->string('slug_gallery')->notnull()->unique();
             $table->string('image')->notnull() ;
             $table->text('gallery_description')->notnull() ;
             $table->string('position')->notnull() ;
-            $table->string('status')->notnull() ;
+            $table->string('status', 8)->notnull()->default('publish') ;
             $table->dateTime('date')->notnull()->useCurrent();
         });
     }
